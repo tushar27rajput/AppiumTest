@@ -25,6 +25,7 @@ public class AppiumTest12
 		DesiredCapabilities  cap=new DesiredCapabilities();
 		cap.setCapability(CapabilityType.BROWSER_NAME,"");
 		cap.setCapability(CapabilityType.VERSION, "5.1.1");
+		cap.setCapability("udid", "33ac4017d52"); //Give Device ID of your mobile phone
 		cap.setCapability("deviceName", "Redmi prime 2");
 		cap.setCapability("platformName", "Android");
 		cap.setCapability("appPackage", "io.selendroid.testapp");
